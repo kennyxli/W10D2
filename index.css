@@ -1,0 +1,90 @@
+.box{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    width: 450px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    font-family: Permanent Marker;
+    background-color: orange;
+}
+.clock {
+    color: white;
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+#title {
+    display: block;
+    position: absolute;
+    font-family: Permanent Marker;
+    left: 40%;
+    font-size: 35px;
+    top: 10px;
+}
+
+.tab{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+    padding-bottom: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Permanent Marker;
+    
+}
+
+.tabHead{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: white;
+    font-family: Permanent Marker;
+}
+.title{
+   display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    white-space: pre-wrap;
+    font-size: 25px;
+    font-family: Permanent Marker;
+    border: 2px solid black;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    background-color: lightblue;
+}
+.content{
+    display: flex;
+    position: fixed;
+    left: 47%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Permanent Marker;
+    color: white;
+}
+
+.body{
+    position: absolute;
+    top: 29px;
+    border: 2px solid black;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 179px;
+    padding-right: 47px;
+    left: 25px;
+    padding-bottom: 169px;
+    background-color: lightblue;
+}
